@@ -1,0 +1,10 @@
+Package: TevianTest
+Version: 1.0
+Section: unknown
+Priority: optional
+Depends: libqt5widgets5, libqt5network5, libqt5gui5, libqt5core5a,libstdc++6, libgcc-s1, libc6
+Architecture: amd64
+Essential: no
+Installed-Size: 224
+Description: Tevian Test
+Maintainer: pm91.arapov@gmail.com
