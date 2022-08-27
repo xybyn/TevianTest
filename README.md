@@ -1,6 +1,24 @@
 # TevianTest
 
-Build on linux:
+Build RELEASE on linux:
+```
+mkdir build-linux
+cd build-linux
+cmake ..
+cmake --build  . --config Release
+./TevianTest
+```
+
+Build RELEASE on Windows:
+```
+mkdir build
+cd build
+cmake ..
+cmake --build  . --config Release
+Release/TevianTest.exe
+```
+
+Build DEBUG on linux:
 ```
 mkdir build-linux
 cd build-linux
@@ -9,7 +27,7 @@ cmake --build .
 ./TevianTest
 ```
 
-Build on Windows:
+Build DEBUG on Windows:
 ```
 mkdir build
 cd build
