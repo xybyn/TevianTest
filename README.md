@@ -35,6 +35,11 @@ cmake ..
 cmake --build .
 Debug/TevianTest.exe
 ```
+
+Build and run docker on Linux:
+```
+sudo ./docker-build-and-run.sh
+```
 # Screenshots
 ![image](https://user-images.githubusercontent.com/39160454/187025193-2c94d86e-32f5-43c9-96c2-bbea9fa8564f.png)
 ![image](https://user-images.githubusercontent.com/39160454/187025204-e8fe02db-8326-40bb-9450-898948c27e9f.png)
