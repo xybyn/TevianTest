@@ -9,7 +9,7 @@ ADD ./src /app/src
 ADD CMakeLists.txt /app
 RUN apt-get install -y qtbase5-dev 
 RUN apt-get install -y qt5-qmake
-
+RUN apt-get install -y x11-apps
 
 
 WORKDIR /app/build
